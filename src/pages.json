@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "每日运势"
+      }
+    },
+    {
+      "path": "pages/match/index",
+      "style": {
+        "navigationBarTitleText": "星座匹配"
+      }
+    },
+    {
+      "path": "pages/personality/index",
+      "style": {
+        "navigationBarTitleText": "性格分析"
+      }
+    },
+    {
+      "path": "pages/horoscope/index",
+      "style": {
+        "navigationBarTitleText": "星盘分析"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "星座解析",
+    "navigationBarBackgroundColor": "#4a90e2",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4a90e2",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "运势",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab- fortune.png",
+        "selectedIconPath": "static/tab-fortune-active.png"
+      },
+      {
+        "text": "匹配",
+        "pagePath": "pages/match/index",
+        "iconPath": "static/tab-match.png",
+        "selectedIconPath": "static/tab-match-active.png"
+      },
+      {
+        "text": "性格",
+        "pagePath": "pages/personality/index",
+        "iconPath": "static/tab-personality.png",
+        "selectedIconPath": "static/tab-personality-active.png"
+      },
+      {
+        "text": "星盘",
+        "pagePath": "pages/horoscope/index",
+        "iconPath": "static/tab-horoscope.png",
+        "selectedIconPath": "static/tab-horoscope-active.png"
+      }
+    ]
+  }
+}

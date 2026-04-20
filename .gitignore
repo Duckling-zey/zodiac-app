@@ -1,0 +1,15 @@
+node_modules/
+dist/
+unpackage/
+*.log
+*.lock
+.env.local
+.env.*.local
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
