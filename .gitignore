@@ -1,5 +1,4 @@
 node_modules/
-dist/
 unpackage/
 *.log
 *.lock
@@ -13,3 +12,6 @@ unpackage/
 *.njsproj
 *.sln
 *.sw?
+.trae
+speces
+.history
