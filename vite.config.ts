@@ -1,15 +1,22 @@
 import { defineConfig } from 'vite'
-import uni from '@dcloudio/vite-plugin-uni'
+import vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
+import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [
-    uni(),
+    vue(),
     UnoCSS()
   ],
   resolve: {
     alias: {
-      '@': '/src'
+      '@': resolve(__dirname, 'src')
     }
+  },
+  server: {
+    port: 3000,
+    open: true,
+    host: true,
+    allowedHosts: true
   }
 })

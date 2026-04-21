@@ -1,5 +1,4 @@
 {
-  "extends": "@uni-helper/uni-types/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
