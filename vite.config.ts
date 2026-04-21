@@ -8,6 +8,7 @@ export default defineConfig({
     vue(),
     UnoCSS()
   ],
+  base: '/zodiac-app/',  // github pages 部署路径
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
